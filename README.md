@@ -7,7 +7,8 @@ solve many complex problems, especially in the areas of computer vision. The Con
 of as a concatenation of two connected sub-networks, each made up of a series of interconnected
 layers, the first half of the network, shown in green in Figure 1 below, is designed to extract features,
 and the second half shown in orange is designed to classify them.
-Figure 1 - Concatenation of two subnetworks
+![alt text](https://github.com/rjacob/Computer-Vision-CNN/blob/master/img/Figure1.png) 
+### Figure 1 - Concatenation of two subnetworks
 The layers that make up the subnets are the building blocks of neural nets and are described in detail
 below.
 H
