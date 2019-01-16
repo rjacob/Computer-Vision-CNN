@@ -8,7 +8,7 @@ of as a concatenation of two connected sub-networks, each made up of a series of
 layers, the first half of the network, shown in green in Figure 1 below, is designed to extract features,
 and the second half shown in orange is designed to classify them.
 ![alt text](https://github.com/rjacob/Computer-Vision-CNN/blob/master/img/Figure1.png) 
-### Figure 1 - Concatenation of two subnetworks
+| ### Figure 1 - Concatenation of two subnetworks |
 The layers that make up the subnets are the building blocks of neural nets and are described in detail
 below.
 H
