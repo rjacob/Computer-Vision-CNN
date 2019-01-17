@@ -8,9 +8,7 @@ of as a concatenation of two connected sub-networks, each made up of a series of
 layers, the first half of the network, shown in green in Figure 1 below, is designed to extract features,
 and the second half shown in orange is designed to classify them.
 ![alt text <>](https://github.com/rjacob/Computer-Vision-CNN/blob/master/img/Figure1.png) 
-<div style="text-align: center">
 ### Figure 1 - Concatenation of two subnetworks
-</div>
 The layers that make up the subnets are the building blocks of neural nets and are described in detail
 below.
 <skipped>
@@ -25,7 +23,8 @@ Summary of the training results is gathered using TensorBoard, and are presented
 As can been seen in the curves below, the network eventually converges to a very high accuracy and close to zero loss. However, as were observed with the validation and the test results, the network overfits. This is maybe due the lack of limited variations of the training data. Although all data is initially augmented, the dataset size is not expanded, i.e. with other random augmentations.
 Figure 13 - Modified LeNet-5 Accuracy & Loss Curve
 The figure below illustrates the confusion matrix of the predictions made by the trained modified LeNet5 network. As can be seen in the matrix, a bright dominant color is seen across the diagonal. One interesting observation that can be made, is that network has difficulty clearly distinguishing between cats and dogs.
-Figure 14 - Modified LeNet-5 Confusion Matrix
+![alt text <>](https://github.com/rjacob/Computer-Vision-CNN/blob/master/img/Figure14.png)
+### Figure 14 - Modified LeNet-5 Confusion Matrix
 
 Accuracy of the predictions are further demonstrated using rank-3 graphs below, where the top three resulting predictions are shown for a sample set of 4 images.
 Figure 15 – Modified LeNet5 Predictions random sample (rank-3)
